@@ -78,6 +78,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="minusButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pIk-7U-mLT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -193,6 +196,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="plusButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAp-6b-A8m"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fJ-zd-K6f">
                                                 <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
@@ -204,6 +210,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="minusButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vcy-H7-etV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
