@@ -65,7 +65,7 @@
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="testButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eY3-ps-XSn"/>
+                                                    <action selector="plusButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbG-Nh-Ewv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-zA-hgS">
@@ -133,6 +133,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="plusButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxe-SE-7yg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdh-jX-OmK">
                                                 <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
@@ -175,7 +178,7 @@
                                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="шт." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qa-Ta-mFI">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="шт" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qa-Ta-mFI">
                                                 <rect key="frame" x="284.5" y="8" width="50" height="34"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -265,6 +268,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="plusButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P6j-uB-mDo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZG-MM-Brh">
                                                 <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
@@ -276,6 +282,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="minusButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="il4-3f-xqE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -328,6 +337,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="plusButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ate-8N-JVa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVX-HY-vRd">
                                                 <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
@@ -339,6 +351,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="minusButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdw-SN-pKc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

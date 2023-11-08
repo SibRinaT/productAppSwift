@@ -14,38 +14,74 @@ class ViewController: UIViewController {
     @IBOutlet weak var TextView3: UITextView!
     @IBOutlet weak var TextView4: UITextView!
     @IBOutlet weak var TextView5: UITextView!
-    
-    var testInt: Int = 0
-    @IBAction func testButton(_ sender: Any) {
-        testInt += 1
-        TextView1.text = String(testInt)
-    }
-    
-    @IBAction func plusButton3(_ sender: Any) {
-        testInt += 1
-        TextView3.text = String(testInt)
-    }
+
+    var viewInt: Int = 0
     
     @IBAction func minusButton1(_ sender: Any) {
-        if testInt > 0 {
-            testInt -= 1
-            TextView1.text = String(testInt)
+        if viewInt > 0 {
+            viewInt -= 1
+            TextView1.text = String(viewInt)
+        }
+    }
+    
+    @IBAction func minusButton2(_ sender: Any) {
+        if viewInt > 0 {
+            viewInt -= 1
+            TextView2.text = String(viewInt)
         }
     }
 
     @IBAction func minusButton3(_ sender: Any) {
-        if testInt > 0 {
-            testInt -= 1
-            TextView3.text = String(testInt)
+        if viewInt > 0 {
+            viewInt -= 1
+            TextView3.text = String(viewInt)
         }
     }
+    
+    @IBAction func minusButton4(_ sender: Any) {
+        if viewInt > 0 {
+            viewInt -= 1
+            TextView4.text = String(viewInt)
+        }
+    }
+    
+    @IBAction func minusButton5(_ sender: Any) {
+        if viewInt > 0 {
+            viewInt -= 1
+            TextView5.text = String(viewInt)
+        }
+    }
+    
+    @IBAction func plusButton1(_ sender: Any) {
+        viewInt += 1
+        TextView1.text = String(viewInt)
+    }
+    
+    @IBAction func plusButton2(_ sender: Any) {
+        viewInt += 1
+        TextView2.text = String(viewInt)
+    }
+        
+    @IBAction func plusButton3(_ sender: Any) {
+        viewInt += 1
+        TextView3.text = String(viewInt)
+    }
+        
+    @IBAction func plusButton4(_ sender: Any) {
+        viewInt += 1
+        TextView4.text = String(viewInt)
+    }
+        
+    @IBAction func plusButton5(_ sender: Any) {
+        viewInt += 1
+        TextView5.text = String(viewInt)
+    }
+
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
     }
-    
-
-    
 }
 
