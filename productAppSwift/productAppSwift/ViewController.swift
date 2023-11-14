@@ -15,7 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var TextView4: UITextView!
     @IBOutlet weak var TextView5: UITextView!
 
+    @IBOutlet weak var StackView1: UIStackView!
+
+    
     var viewInt: Int = 0
+    
+    @IBAction func addButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func cancelButton(_ sender: UIButton) {
+    }
     
     @IBAction func minusButton1(_ sender: Any) {
         if viewInt > 0 {
