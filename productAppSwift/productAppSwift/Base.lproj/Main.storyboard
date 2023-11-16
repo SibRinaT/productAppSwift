@@ -70,555 +70,84 @@
                                         </subviews>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qyX-az-oos">
-                                        <rect key="frame" x="0.0" y="234.5" width="414" height="182"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EPg-BC-q16">
+                                        <rect key="frame" x="0.0" y="234.5" width="414" height="583.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="H8n-qz-ref">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Картофель" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1t-Lb-8e7">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="FzC-mM-5y5"/>
-                                                            <constraint firstAttribute="height" constant="34" id="SjH-Vu-7br"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROQ-SS-bYJ">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="G9v-7j-fqp"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zf-bw-yI5">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="6CM-aF-C09"/>
-                                                            <constraint firstAttribute="width" constant="50" id="bAO-jO-Ji4"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmF-mR-HBH">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="CGt-Eu-gE7"/>
-                                                            <constraint firstAttribute="width" constant="33" id="eb9-vc-RCc"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbG-Nh-Ewv"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-zA-hgS">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="cig-JM-KYL"/>
-                                                            <constraint firstAttribute="height" constant="34" id="fg6-v5-7nT"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pIk-7U-mLT"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="95d-aV-9jx"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="N5h-zn-pkI">
-                                                <rect key="frame" x="0.0" y="66" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Чай" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdp-MQ-qQ8">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="m9h-vX-bPk"/>
-                                                            <constraint firstAttribute="height" constant="34" id="syO-TX-RhI"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIp-Oy-nWA">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="2S6-En-Z1U"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEp-Oa-FPp">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="6d7-PW-J3O"/>
-                                                            <constraint firstAttribute="height" constant="34" id="h8b-Nd-Bc7"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGy-Y0-JfU">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="i2i-KN-WZ8"/>
-                                                            <constraint firstAttribute="width" constant="33" id="v6A-Ye-l6m"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxe-SE-7yg"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdh-jX-OmK">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="2SO-mm-W5d"/>
-                                                            <constraint firstAttribute="width" constant="30.5" id="sTs-rO-GCe"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJP-HO-kYc"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="hJs-34-2Kb"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="H1s-HK-8An">
-                                                <rect key="frame" x="0.0" y="132" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Яйца" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aba-6S-cQI">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="6MW-H4-BD6"/>
-                                                            <constraint firstAttribute="height" constant="34" id="d9Q-oX-YY6"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oT-QW-Hbg">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="ngd-AT-hxl"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="шт" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qa-Ta-mFI">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="7I7-aV-iD2"/>
-                                                            <constraint firstAttribute="height" constant="34" id="aVp-dB-nHr"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evK-sK-s3O">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="33" id="7Gq-ti-DB1"/>
-                                                            <constraint firstAttribute="height" constant="34" id="wX8-kX-RI9"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAp-6b-A8m"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fJ-zd-K6f">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="42b-Xd-qm3"/>
-                                                            <constraint firstAttribute="height" constant="34" id="ZwS-FU-yfS"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vcy-H7-etV"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="EBm-4N-uPt"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="efN-or-Fyd">
-                                                <rect key="frame" x="0.0" y="182" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Молоко" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2X-qu-ASu">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="9Gv-Cy-5Bs"/>
-                                                            <constraint firstAttribute="height" constant="34" id="LkB-S3-Zy3"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRx-nx-UF7">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="xra-7P-1Th"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znL-qC-5Ni">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="3AW-hw-Nwp"/>
-                                                            <constraint firstAttribute="height" constant="34" id="VpK-4F-GlX"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESX-ui-hGR">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="33" id="D5c-ba-Nzm"/>
-                                                            <constraint firstAttribute="height" constant="34" id="aOf-Vh-eWc"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P6j-uB-mDo"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZG-MM-Brh">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="VyB-jA-Ver"/>
-                                                            <constraint firstAttribute="height" constant="34" id="WEI-r6-SHw"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="il4-3f-xqE"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="IaV-Ps-6Es"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ey7-Hx-HFl">
-                                                <rect key="frame" x="0.0" y="182" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Макароны" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGy-5t-5EZ">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="MvT-av-Qpo"/>
-                                                            <constraint firstAttribute="height" constant="34" id="SKC-NC-WfE"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgj-VR-Cox">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="9yV-5l-6cm"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EB-VZ-qbP">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="8MV-Sz-xJ1"/>
-                                                            <constraint firstAttribute="width" constant="50" id="pYi-6G-7Ba"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4b-dS-Hh7">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="33" id="fqf-vT-c16"/>
-                                                            <constraint firstAttribute="height" constant="34" id="h11-3O-PcX"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGY-9F-5aI"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVX-HY-vRd">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="I8t-Lc-XG5"/>
-                                                            <constraint firstAttribute="height" constant="34" id="jUh-7K-LeA"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="iG6-kS-Q1e"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CsP-8b-CHV">
-                                                <rect key="frame" x="0.0" y="182" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5i-x1-piM">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="240" id="lll-Aj-A0w"/>
-                                                            <constraint firstAttribute="height" constant="34" id="nXb-uM-5oF"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUx-Ih-ao2">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="C6q-Nw-n4V"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIP-vM-RmB">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="6DN-5v-s1n"/>
-                                                            <constraint firstAttribute="height" constant="34" id="OZJ-jK-JRX"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAq-if-9GF">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="CUX-af-cYY"/>
-                                                            <constraint firstAttribute="width" constant="33" id="pT1-ei-HMk"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjJ-qk-WwU">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="YK8-Q7-8Ku"/>
-                                                            <constraint firstAttribute="height" constant="34" id="ezz-ur-81B"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton6:" destination="BYZ-38-t0r" eventType="touchDragInside" id="bfK-mx-Ccn"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="uQH-eF-RHc"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wco-EY-HMq">
-                                                <rect key="frame" x="0.0" y="182" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Макароны" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ro3-Gx-TLQ">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="ECP-wQ-Rr8"/>
-                                                            <constraint firstAttribute="width" constant="240" id="dra-0H-ma0"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0f-sO-y9a">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="BJH-74-Taz"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOy-i2-4mM">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="q4W-p5-xOb"/>
-                                                            <constraint firstAttribute="height" constant="34" id="wLG-4T-yWU"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uci-2K-h3N">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="33" id="hKk-Wm-3gQ"/>
-                                                            <constraint firstAttribute="height" constant="34" id="tS5-oG-2cJ"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ve-qH-lmj">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30.5" id="Eko-Gl-ky5"/>
-                                                            <constraint firstAttribute="height" constant="34" id="wEB-y7-vMR"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="minusButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSh-n0-4JB"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="rbG-fE-SEA"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
-                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ANa-xd-Pdf">
-                                                <rect key="frame" x="0.0" y="182" width="414" height="50"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Макароны" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XB0-t2-QDH">
-                                                        <rect key="frame" x="8" y="8" width="240" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="1Yc-vc-2du"/>
-                                                            <constraint firstAttribute="width" constant="240" id="2rb-DC-sJb"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqe-bo-WHC">
-                                                        <rect key="frame" x="252" y="8" width="28.5" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="ZCa-dn-lJx"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="кг" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqS-Du-ZVa">
-                                                        <rect key="frame" x="284.5" y="8" width="50" height="34"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="68a-rj-Kzn"/>
-                                                            <constraint firstAttribute="width" constant="50" id="Esk-74-lgi"/>
-                                                        </constraints>
-                                                        <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqB-FX-rYc">
-                                                        <rect key="frame" x="338.5" y="8" width="33" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="1aC-c9-aJH"/>
-                                                            <constraint firstAttribute="width" constant="33" id="aop-m2-bl4"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="+">
-                                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="plusButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFm-3w-8s5"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCB-Kl-gcg">
-                                                        <rect key="frame" x="375.5" y="8" width="30.5" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="34" id="bbh-FM-sZM"/>
-                                                            <constraint firstAttribute="width" constant="30.5" id="lD5-sA-ZcA"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="-">
-                                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="CiR-Q5-EEB"/>
-                                                </constraints>
-                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                            </stackView>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bzR-5p-NHu">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="583.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dmW-pJ-1Go">
+                                                        <rect key="frame" x="0.0" y="44.5" width="414" height="46.5"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dmW-pJ-1Go" id="WCM-ZG-O6Z">
+                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="46.5"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="LUV-JY-7QD">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="46.5"/>
+                                                                    <subviews>
+                                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="example text milk" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a54-FN-Hzn">
+                                                                            <rect key="frame" x="8" y="8" width="150" height="30.5"/>
+                                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" constant="150" id="RnC-uq-PYe"/>
+                                                                            </constraints>
+                                                                            <color key="textColor" systemColor="labelColor"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                        </textView>
+                                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="kg" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TNZ-5w-pvV">
+                                                                            <rect key="frame" x="174" y="8" width="130" height="30.5"/>
+                                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                            <color key="textColor" systemColor="labelColor"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                        </textView>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqx-d2-px2">
+                                                                            <rect key="frame" x="320" y="8" width="35" height="30.5"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" constant="35" id="Iwb-gm-hZI"/>
+                                                                                <constraint firstAttribute="height" constant="30" id="qrn-hz-Y33"/>
+                                                                            </constraints>
+                                                                            <state key="normal" title="Button"/>
+                                                                            <buttonConfiguration key="configuration" style="filled" title="+"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV6-5d-xjh">
+                                                                            <rect key="frame" x="371" y="8" width="35" height="30.5"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" constant="35" id="t3H-3y-1va"/>
+                                                                            </constraints>
+                                                                            <state key="normal" title="Button"/>
+                                                                            <buttonConfiguration key="configuration" style="filled" title="-"/>
+                                                                        </button>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstItem="TNZ-5w-pvV" firstAttribute="height" secondItem="a54-FN-Hzn" secondAttribute="height" id="9n6-me-Vek"/>
+                                                                        <constraint firstItem="MV6-5d-xjh" firstAttribute="height" secondItem="a54-FN-Hzn" secondAttribute="height" id="EHm-tQ-3Fg"/>
+                                                                        <constraint firstItem="Pqx-d2-px2" firstAttribute="height" secondItem="a54-FN-Hzn" secondAttribute="height" id="ngl-Px-fqH"/>
+                                                                    </constraints>
+                                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                </stackView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="LUV-JY-7QD" firstAttribute="leading" secondItem="WCM-ZG-O6Z" secondAttribute="leading" id="LvH-Bx-HrY"/>
+                                                                <constraint firstAttribute="bottom" secondItem="LUV-JY-7QD" secondAttribute="bottom" id="QUR-ef-PXt"/>
+                                                                <constraint firstItem="LUV-JY-7QD" firstAttribute="top" secondItem="WCM-ZG-O6Z" secondAttribute="top" id="UI5-oH-qwJ"/>
+                                                                <constraint firstAttribute="trailing" secondItem="LUV-JY-7QD" secondAttribute="trailing" id="hRk-wl-oiY"/>
+                                                            </constraints>
+                                                        </tableViewCellContentView>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                            </tableView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EPg-BC-q16">
-                                        <rect key="frame" x="0.0" y="416.5" width="414" height="401.5"/>
-                                    </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="EPg-BC-q16" secondAttribute="bottom" id="Faz-pn-Abi"/>
+                                    <constraint firstItem="EPg-BC-q16" firstAttribute="leading" secondItem="fYB-Ku-6le" secondAttribute="leading" id="IOb-hx-3fz"/>
+                                    <constraint firstAttribute="trailing" secondItem="EPg-BC-q16" secondAttribute="trailing" id="YRi-ZE-Xwl"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -631,14 +160,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="StackView1" destination="efN-or-Fyd" id="nLn-w1-opP"/>
-                        <outlet property="TextView1" destination="ROQ-SS-bYJ" id="som-Ls-N17"/>
-                        <outlet property="TextView2" destination="eIp-Oy-nWA" id="uq0-tN-j2x"/>
-                        <outlet property="TextView3" destination="3oT-QW-Hbg" id="4l0-eV-7DP"/>
-                        <outlet property="TextView4" destination="ZRx-nx-UF7" id="4RA-wt-t83"/>
-                        <outlet property="TextView6" destination="kgj-VR-Cox" id="Qnm-pg-qHs"/>
                         <outlet property="addProductTextView" destination="QUO-wx-bCt" id="TcR-Nd-urf"/>
-                        <outlet property="productNameTextView1" destination="a2X-qu-ASu" id="CwL-0s-dUy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
